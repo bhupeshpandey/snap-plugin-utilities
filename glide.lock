@@ -25,7 +25,7 @@ imports:
   version: 32d9c273155a0506d27cf73dd1246e86a470997e
 - name: github.com/sirupsen/logrus
   version: be52937128b38f1d99787bb476c789e2af1147f1
-- name: golang.org/x/sys
+- name: github.com/golang/sys
   version: 661970f62f5897bc0cd5fdca7e087ba8a98a8fa1
   subpackages:
   - unix

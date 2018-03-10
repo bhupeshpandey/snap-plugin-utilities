@@ -1,14 +1,14 @@
 package: github.com/intelsdi-x/snap-plugin-utilities
 import:
-- package: github.com/intelsdi-x/snap
+- package: github.com/intelsdi-x/snap.git
   subpackages:
   - control/plugin
   - core
   - core/ctypes
-- package: github.com/oleiade/reflections
-- package: github.com/sirupsen/logrus
-- package: gopkg.in/yaml.v2
+- package: github.com/oleiade/reflections.git
+- package: github.com/sirupsen/logrus.git
+- package: gopkg.in/yaml.v2.git
 testImport:
-- package: github.com/smartystreets/goconvey
+- package: github.com/smartystreets/goconvey.git
   subpackages:
   - convey
